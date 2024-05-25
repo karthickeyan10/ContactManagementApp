@@ -160,7 +160,7 @@ useQuery<WorldData>('worldData', () => fetchData('https://disease.sh/v3/covid-19
 
 IMAGES
 HOME PAGE
-https://github.com/karthickeyan10/ContactManagementApp/assets/104918292/b5486f46-b1bb-4e29-b8d9-ae369731e91c
+![image](https://github.com/karthickeyan10/ContactManagementApp/assets/104918292/b5486f46-b1bb-4e29-b8d9-ae369731e91c)
 
 CREATING CONTACT
 ![image](https://github.com/karthickeyan10/ContactManagementApp/assets/104918292/a64489ff-43fa-472e-b995-c148c9e19eb9)
