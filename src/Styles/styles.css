@@ -1,0 +1,520 @@
+.navbar {
+    background-color: #333;
+    width: 150px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .nav-btn {
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: #555;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .nav-btn:hover {
+    background-color: #777;
+  }
+  .contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f5f5f7;
+  }
+  
+  .contact-form-container h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="radio"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  /* styles.css */
+
+/* Existing styles */
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    width: 10%;
+    top: 0;
+    display: flex;
+  }
+  
+  /* New styles */
+  .contact-list-container {
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 20%; /* Adjust as needed */
+  }
+  /* styles.css */
+
+.contact-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-list-container img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .contact-items {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-item {
+    border: 3px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .contact-item p {
+    margin: 0;
+  }
+  
+  .contact-item button {
+    margin-top: 5px;
+  }
+  /* styles.css */
+
+.contact-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-list-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: transform 0.3s; /* Add transition property for transform */
+}
+
+.contact-list-container img:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+}
+
+.contact-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-item {
+    border: 3px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s; /* Add transition property for transform */
+}
+
+.contact-item:hover {
+    transform: scale(1.05); /* Increase the size on hover */
+}
+
+.contact-item p {
+    margin: 0;
+}
+
+.contact-item button {
+    margin-top: 5px;
+}
+.contact-details-container{
+    margin-left: 220px;
+}
+.dashboard-container {
+  padding: 20px;
+}
+
+.worldwide-cases {
+  margin-bottom: 20px;
+}
+
+.line-graph {
+  margin-bottom: 20px;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* .leaflet-map {
+  width: 100%;
+  height: 100%;
+
+} */
+.dashboard-container{
+  margin-left: 15%;
+}
+/* styles.css */
+
+/* Adjust margin-left for contact details container */
+.contact-details-container {
+  margin-left: 20px; /* Adjust as needed */
+}
+
+/* Style create contact link as a button */
+.create-contact-link,.nav-btn {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+.nav-btn{
+  margin-top: 10px;
+  background-color:darkmagenta;
+}
+
+/* Beautify contact background */
+.contact-details-container {
+  background-color: #f5f5f7;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Beautify contact list items */
+.contact-item {
+  border: 3px solid #ccc;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 30px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s; /* Add transition property for transform */
+  background-color: #f5f5f7; /* Add background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  background-color: cornsilk;
+}
+
+.contact-item:hover {
+  transform: scale(1.05); /* Increase the size on hover */
+}
+.contact-detail{
+  margin-left: 40%;
+  margin-top:10%;
+  border:2px solid blue;
+  border-radius: 22px;
+  padding: 12px;
+  width:300px;
+  background-color:antiquewhite;
+}
+.contact-list-container {
+  margin-left: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; /* Set the direction to column */
+  width: 80%; /* Set the width to 80% of the parent container */
+ height: 80%; /* Set maximum height */
+  overflow-x: auto; /* Enable vertical scrolling if necessary */
+}
+
+.contact-list-container::-webkit-scrollbar {
+  width: 10px; /* Adjust scrollbar width */
+  height: 10px; /* Adjust scrollbar height */
+}
+
+.contact-list-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3); /* Adjust thumb color */
+  border-radius: 4px; /* Adjust thumb border radius */
+}
+
+.contact-list-container::-webkit-scrollbar-track {
+  background-color: transparent; /* Adjust track color */
+}
+
+body{
+  background-image: url('https://www.bing.com/th/id/OGC.50c133cefdf492af4a3254b659a1d0da?pid=1.7&rurl=https%3a%2f%2fcdn.dribbble.com%2fusers%2f325523%2fscreenshots%2f2258806%2fmedia%2fe4c3c4a63c76e2ac505eeac16ca7802e.gif&ehk=40Z1W2YsCmUIk9qwzEvedVlobQfKtAsHMlwVYwwv%2beE%3d');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* styles.css */
+
+/* Adjust margin-left for contact details container */
+.contact-details-container {
+  margin-left: 20px; /* Adjust as needed */
+}
+
+/* Style create contact link as a button */
+.create-contact-link,
+.nav-btn {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav-btn {
+  margin-top: 10px;
+  background-color: darkmagenta;
+}
+
+/* Beautify contact background */
+.contact-details-container {
+  background-color: #f5f5f7;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Beautify contact list items */
+.contact-item {
+  border: 3px solid #ccc;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 30px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s; /* Add transition property for transform */
+  background-color: #f5f5f7; /* Add background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  background-color: cornsilk;
+}
+
+.contact-item:hover {
+  transform: scale(1.05); /* Increase the size on hover */
+}
+
+/* Style edit button */
+.edit-btn {
+  margin-top: 5px;
+  background-color: #28a745; /* Green color */
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Style delete button */
+.delete-btn {
+  margin-top: 5px;
+  background-color: #dc3545; /* Red color */
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+.dashboard-container{
+  background-color:white;
+}
+.create-contact-link{
+  margin-top: 70px;
+}
+/* .mapcap{
+  width:700px;
+  height: 700px;
+  background-color: #ac0909;
+} */
+.aa{
+  width:300px;
+  height: 400px;
+  background-color: #ead8d8;
+}
+.country-data-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.country-data {
+  flex: 0 0 25%; /* Each country data occupies 25% of the container width */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+/* HomePage.css */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.bg-blue-500 {
+  background-color: #3b82f6;
+}
+
+.bg-green-500 {
+  background-color: #10b981;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link-blue-500 {
+  color: #3b82f6;
+}
+
+.link-green-500 {
+  color: #10b981;
+}
+.mb-6{
+ margin-left:0;
+ margin-top: 10%;
+ text-align: center;
+  background-color:chartreuse ;
+}
+.gap-4{
+  margin-top: 10%;
+}
+.container{
+  width: 100%;
+}
+.contactheader{
+  margin: 0;
+  padding: 10px;
+  background-color:midnightblue;
+  /* background-color:pink; */
+  color: white;
+  /* font-size:xx-large; */
+  height: 70px;
+  text-align: center;
+}
